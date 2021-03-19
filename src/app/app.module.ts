@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarChartsComponent } from './components/bar-charts/bar-charts.component';
 import { ChartsModule } from 'ng2-charts';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    BarChartsComponent
+    BarChartsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
